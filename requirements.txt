@@ -4,4 +4,4 @@ numpy
 seaborn
 matplotlib
 openai
-dotenv
+python-dotenv
