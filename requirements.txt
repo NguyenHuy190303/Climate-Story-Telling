@@ -1,5 +1,7 @@
 streamlit
-matplotlib
-seaborn
 pandas
 numpy
+seaborn
+matplotlib
+openai
+dotenv
