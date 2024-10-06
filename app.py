@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get the API key from environment variable
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets["general"]["OPENAI_API_KEY"]
 
 # Initialize the OpenAI client
 client = OpenAI(api_key=api_key)
