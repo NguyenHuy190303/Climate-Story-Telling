@@ -26,7 +26,7 @@ if hasattr(sys.stdout, "reconfigure"):
         st.error(f"Error setting stdout encoding: {e}")
 
 # Set the correct paths for the files
-visual_path = r'.\visual'
+visual_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "visual")
 sys.path.append(visual_path)
 
 # Dynamically load the co2-in-the-air module
